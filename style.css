@@ -1,0 +1,52 @@
+table, th, td, form {
+    border-color: #777777;
+    border-style: solid;
+    border-width: 1px;
+}
+
+tbody td:first-child {
+    font-style: italic;
+}
+
+thead tr th {
+    background-color: yellow;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: pink;
+}
+
+tbody tr:nth-child(even) {
+    background-color: orange;
+}
+
+tfoot {
+    display: table-footer-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background-color: yellow;
+}
+
+dt:hover  + dd {
+    background-color: pink;
+}
+
+li {
+    list-style-type: none;
+}
+
+div.outer-content {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 20px;
+    background-color: pink;
+    width: 75%;
+    padding: 10px;
+}
+
+div.inner-content {
+    text-align: center;
+    margin: 0 auto;
+    background-color: lightblue;
+    width: 75%;
+}
